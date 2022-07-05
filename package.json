@@ -1,0 +1,10 @@
+{
+  "name": "chess-ia",
+  "version": "1.0.0",
+  "description": "Implementaçao de uma inteligencia artificial simples para jogar xadrez",
+  "main": "index.html",
+  "dependencies": {
+    "@chrisoakman/chessboardjs": "^1.0.0",
+    "chess.js": "^0.12.0"
+  }
+}

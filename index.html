@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <
+    <link
+      rel="stylesheet"
+      href="node_modules/@chrisoakman/chessboardjs/dist/chessboard-1.0.0.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="tabuleiro" class="tabuleiro"></div>
+    <div
+      class="info"
+      style="padding-top: 10px; display: flex; justify-content: space-around"
+    >
+      <button
+        id="brancas"
+        class="botaoSelecionado"
+        style="height: 50px; width: 100px"
+      >
+        Brancas
+      </button>
+      <button id="pretas" style="height: 50px; width: 100px">Pretas</button>
+    </div>
+    <div
+      class="info"
+      style="padding-top: 10px; display: flex; justify-content: space-around"
+    >
+      <button
+        id="minimax"
+        class="botaoSelecionado"
+        style="height: 50px; width: 100px"
+      >
+        MiniMax
+      </button>
+      <button id="aleatorio" style="height: 50px; width: 100px">
+        Aleatório
+      </button>
+    </div>
+    <div
+      class="info"
+      style="padding-top: 10px; display: flex; justify-content: space-around"
+    >
+      <button id="iniciar" style="height: 50px; width: 100px">Jogar</button>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/@chrisoakman/chessboardjs/dist/chessboard-1.0.0.js"></script>
+    <script src="node_modules/chess.js/chess.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
