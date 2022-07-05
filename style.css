@@ -1,0 +1,14 @@
+.tabuleiro {
+  width: 600px;
+  margin: auto;
+}
+
+.info {
+  width: 400px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.botaoSelecionado {
+  background-color: #f0d9b5;
+}
